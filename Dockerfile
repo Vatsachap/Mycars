@@ -10,5 +10,7 @@ COPY target/Mycars-0.0.1-SNAPSHOT.jar app.jar
 # 4. Expose the application port (Spring Boot default is 8080)
 EXPOSE 8080
 
-# 5. Run the JAR file when the container startss
+# 6. Run the JAR file when the container starts
 CMD ["java", "-jar", "app.jar"]
+
+
