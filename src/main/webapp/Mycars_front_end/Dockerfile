@@ -21,7 +21,7 @@ WORKDIR /app
 # 3. Copy dependency files first to leverage Docker cache
 COPY package*.json ./
 
-# 4. Install dependencies
+# 4. Install dependenciess
 RUN npm install
 
 # 5. Copy the rest of the source codecd
