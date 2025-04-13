@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css'; // Custom CSS file for styling
 
 const App = () => {
-  const BASE_URL = 'http://localhost:8080/Mycars';
+  const BASE_URL = '34.134.10.14:8080/Mycars';
   const [cars, setCars] = useState([]);
   const [addForm, setAddForm] = useState({ name: '', model: '', hp: '' });
   const [updateForm, setUpdateForm] = useState({ id: '', name: '', model: '', power_in_hp: '' });
